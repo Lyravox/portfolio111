@@ -1,0 +1,71 @@
+/* styleindex.css */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peachpuff;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: white;
+  border-radius: 5px;
+  align-items: flex-start;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#pfp {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 95px;
+  width: 100;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 1em;
+  color: #666666;
+}
+
+.about {
+  margin-top: 0;
+  font-size: lem;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.langs {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: silver;
+}
